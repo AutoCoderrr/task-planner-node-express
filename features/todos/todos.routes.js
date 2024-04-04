@@ -4,7 +4,7 @@ const router = express.Router();
 // ye routing use ke liye 
 // controller ki methods ko import 
 const todoController = require('./todos.controller.js');
-// import todoController from './todos.controller.js';
+
 // validation  
 const { validateTodo } = require('./todos.validator.js')
 
